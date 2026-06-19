@@ -13,10 +13,11 @@ public partial class ChangeAudioDeviceCommandPalleteExtensionCommandsProvider : 
 
     public ChangeAudioDeviceCommandPalleteExtensionCommandsProvider()
     {
-        DisplayName = "Change Audio Device ";
+        DisplayName = "Change Audio Device";
         Icon = IconHelpers.FromRelativePath("Assets\\StoreLogo.png");
         _commands = [
-            new CommandItem(new ChangeAudioDeviceCommandPalleteExtensionPage()) { Title = DisplayName },
+            new CommandItem(new AudioDeviceListPage(false)) { Title = "Set Output Device" },
+            new CommandItem(new AudioDeviceListPage(true)) { Title = "Set Input Device" },
         ];
     }
 
