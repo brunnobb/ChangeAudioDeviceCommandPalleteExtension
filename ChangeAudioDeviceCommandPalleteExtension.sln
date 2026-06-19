@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.7.11911.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeAudioDeviceCommandPalleteExtension", "ChangeAudioDeviceCommandPalleteExtension\ChangeAudioDeviceCommandPalleteExtension.csproj", "{82FCEC53-96B0-B58B-D105-E2CD07A1922E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82FCEC53-96B0-B58B-D105-E2CD07A1922E}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{82FCEC53-96B0-B58B-D105-E2CD07A1922E}.Debug|ARM64.Build.0 = Debug|ARM64
+		{82FCEC53-96B0-B58B-D105-E2CD07A1922E}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{82FCEC53-96B0-B58B-D105-E2CD07A1922E}.Debug|x64.ActiveCfg = Debug|x64
+		{82FCEC53-96B0-B58B-D105-E2CD07A1922E}.Debug|x64.Build.0 = Debug|x64
+		{82FCEC53-96B0-B58B-D105-E2CD07A1922E}.Debug|x64.Deploy.0 = Debug|x64
+		{82FCEC53-96B0-B58B-D105-E2CD07A1922E}.Release|ARM64.ActiveCfg = Release|ARM64
+		{82FCEC53-96B0-B58B-D105-E2CD07A1922E}.Release|ARM64.Build.0 = Release|ARM64
+		{82FCEC53-96B0-B58B-D105-E2CD07A1922E}.Release|ARM64.Deploy.0 = Release|ARM64
+		{82FCEC53-96B0-B58B-D105-E2CD07A1922E}.Release|x64.ActiveCfg = Release|x64
+		{82FCEC53-96B0-B58B-D105-E2CD07A1922E}.Release|x64.Build.0 = Release|x64
+		{82FCEC53-96B0-B58B-D105-E2CD07A1922E}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEDBC581-5818-4350-BC8A-A1ECE687D357}
+	EndGlobalSection
+EndGlobal
