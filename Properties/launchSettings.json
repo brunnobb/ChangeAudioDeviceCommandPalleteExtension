@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ChangeAudioDeviceCommandPalleteExtension (Package)": {
+      "commandName": "MsixPackage",
+      "doNotLaunchApp": true
+    },
+    "ChangeAudioDeviceCommandPalleteExtension (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
