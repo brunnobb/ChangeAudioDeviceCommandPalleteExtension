@@ -3,6 +3,14 @@
   <PropertyGroup>
     <_LastSelectedProfileId>C:\Workspace\ChangeAudioDeviceCommandPalleteExtension\ChangeAudioDeviceCommandPalleteExtension\ChangeAudioDeviceCommandPalleteExtension\Properties\PublishProfiles\win-x64.pubxml</_LastSelectedProfileId>
     <ActiveDebugProfile>ChangeAudioDeviceCommandPalleteExtension (Package)</ActiveDebugProfile>
+    <Source>C:\Workspace\PowerToys\ChangeAudioDeviceCommandPalleteExtension\ChangeAudioDeviceCommandPalleteExtension\Assets\LargeTile.png</Source>
+    <SmallTileSource>C:\Workspace\PowerToys\ChangeAudioDeviceCommandPalleteExtension\ChangeAudioDeviceCommandPalleteExtension\Assets\LargeTile.png</SmallTileSource>
+    <MediumTileSource>C:\Workspace\PowerToys\ChangeAudioDeviceCommandPalleteExtension\ChangeAudioDeviceCommandPalleteExtension\Assets\LargeTile.png</MediumTileSource>
+    <WideTileSource>C:\Workspace\PowerToys\ChangeAudioDeviceCommandPalleteExtension\ChangeAudioDeviceCommandPalleteExtension\Assets\LargeTile.png</WideTileSource>
+    <LargeTileSource>C:\Workspace\PowerToys\ChangeAudioDeviceCommandPalleteExtension\ChangeAudioDeviceCommandPalleteExtension\Assets\LargeTile.png</LargeTileSource>
+    <AppIconSource>C:\Workspace\PowerToys\ChangeAudioDeviceCommandPalleteExtension\ChangeAudioDeviceCommandPalleteExtension\Assets\LargeTile.png</AppIconSource>
+    <SplashScreenSource>C:\Workspace\PowerToys\ChangeAudioDeviceCommandPalleteExtension\ChangeAudioDeviceCommandPalleteExtension\Assets\LargeTile.png</SplashScreenSource>
+    <PackageLogoSource>C:\Workspace\PowerToys\ChangeAudioDeviceCommandPalleteExtension\ChangeAudioDeviceCommandPalleteExtension\Assets\LargeTile.png</PackageLogoSource>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
