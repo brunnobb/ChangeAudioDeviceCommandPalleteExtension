@@ -3,3 +3,9 @@
 .vs/
 
 ChangeAudioDeviceCommandPalleteExtension/AppPackages/
+
+ChangeAudioDeviceCommandPalleteExtension/BundleArtifacts/
+
+ChangeAudioDeviceCommandPalleteExtension/bundle_mapping.txt
+
+*.msixbundle
