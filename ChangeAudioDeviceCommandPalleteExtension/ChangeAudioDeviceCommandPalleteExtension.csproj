@@ -16,12 +16,12 @@
 
 		<AppxPackageIdentityName>24258Grooups.ChangeAudioDeviceforCommandPalette</AppxPackageIdentityName>
 		<AppxPackagePublisher>CN=935CC0E4-40E3-49AC-8A9A-F5D982F2A740</AppxPackagePublisher>
-		<AppxPackageVersion>1.0.0.0</AppxPackageVersion>
+		<AppxPackageVersion>1.0.1.0</AppxPackageVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<Content Include="Assets\**\*.png" />
-		
+
 	</ItemGroup>
 	<Target Name="PrepareAssets" BeforeTargets="BeforeBuild">
 		<!-- Copy scale-specific assets to base filenames expected by store validations -->
@@ -78,6 +78,8 @@
 		<!-- When publishing trimmed, make sure to treat trimming warnings as build errors -->
 		<ILLinkTreatWarningsAsErrors>true</ILLinkTreatWarningsAsErrors>
 		<DefaultLanguage>en</DefaultLanguage>
+		<AssemblyVersion>1.0.1.0</AssemblyVersion>
+		<FileVersion>1.0.1.0</FileVersion>
 
 	</PropertyGroup>
 

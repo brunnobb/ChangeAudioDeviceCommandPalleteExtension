@@ -6,13 +6,17 @@ using Microsoft.CommandPalette.Extensions;
 using Shmuelie.WinRTServer;
 using Shmuelie.WinRTServer.CsWinRT;
 using System;
+using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace ChangeAudioDeviceCommandPalleteExtension;
 
-public class Program
+public partial class Program
 {
+    [LibraryImport("user32.dll", StringMarshalling = StringMarshalling.Utf16, EntryPoint = "MessageBoxW")]
+    private static partial int MessageBox(IntPtr hWnd, string lpText, string lpCaption, uint uType);
+
     [MTAThread]
     public static void Main(string[] args)
     {
@@ -37,7 +41,7 @@ public class Program
         }
         else
         {
-            Console.WriteLine("Not being launched as a Extension... exiting.");
+            MessageBox(IntPtr.Zero, "This program is a PowerToys Command Palette plugin, and should be configured there.", "PowerToys Command Palette Extension", 0x00000040 /* MB_OK | MB_ICONINFORMATION */);
         }
     }
 }
